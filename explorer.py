@@ -11,7 +11,7 @@ def load_csv(file_name):
     return np.array(result)
 
 # Load csv files
-ratings = load_csv("ratings.csv")[1:]
+ratings = load_csv("movie_lens_data/ratings.csv")[1:]
 movies1718 = load_csv("movies1718.csv")
 idmovies1718 = movies1718[:,0]
 
